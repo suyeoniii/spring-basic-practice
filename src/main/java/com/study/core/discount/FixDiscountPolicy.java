@@ -1,4 +1,4 @@
-package com.study.core;
+package com.study.core.discount;
 
 import com.study.core.member.Grade;
 import com.study.core.member.Member;

@@ -1,6 +1,4 @@
-package com.study.core;
-
-import com.study.core.Order;
+package com.study.core.order;
 
 public interface OrderService {
 	Order createOrder(Long memberId, String itemName, int itemPrice);
