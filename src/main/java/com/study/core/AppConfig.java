@@ -1,7 +1,7 @@
 package com.study.core;
 
 import com.study.core.discount.DiscountPolicy;
-import com.study.core.discount.FixDiscountPolicy;
+import com.study.core.discount.RateDiscountPolicy;
 import com.study.core.member.MemberService;
 import com.study.core.member.MemberServiceImpl;
 import com.study.core.member.MemoryMemberRepository;
@@ -22,6 +22,6 @@ public class AppConfig {
 	}
 
 	public DiscountPolicy discountPolicy() {
-		return new FixDiscountPolicy();
+		return new RateDiscountPolicy();
 	}
 }
